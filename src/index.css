@@ -11,6 +11,14 @@ body {
   /* overflow-y: hidden; */
 }
 
+input[type="search"] {
+  -webkit-appearance: none;
+}
+
+input { 
+  -webkit-border-radius: 0; 
+}
+
 .sections{
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
