@@ -253,8 +253,13 @@
         width: 95%;
     }
 
+    .contactButtons .material-symbols-outlined {
+        font-size: 2rem;
+    }
+
     .contactButtons {
         flex-direction: column;
+        padding:0em;
     }
 
     .contactEmail {
@@ -263,6 +268,15 @@
 
     .contactLinkedin {
         align-items: flex-end;
+    }
+    
+    .contactRight form {
+        flex-direction: column;
+    }
+
+    .contactRight input, 
+    .contactRight textarea {
+        padding:.9em;
     }
 
 
