@@ -464,7 +464,7 @@ button a {
     .aboutStatsMobileWrapper {
         display:flex;
         flex-direction: column;
-        height:53vh;
+        height:48vh;
         padding:.5em;
         width: 95%;
     }

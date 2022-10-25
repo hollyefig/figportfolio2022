@@ -9,6 +9,7 @@ body {
   overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
   /* overflow-y: hidden; */
+  overflow-x: hidden;
 }
 
 input[type="search"] {
