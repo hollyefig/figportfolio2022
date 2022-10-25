@@ -33,7 +33,7 @@ export default function Header() {
         </div>
         <div className='headerRight'></div>
       </div>
-      <div className='headerBottom'>bottom</div>
+      <div className='headerBottom'></div>
     </div>
   );
 }
