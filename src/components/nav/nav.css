@@ -1,0 +1,129 @@
+.navWrapper {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    z-index: 20;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    background-color: transparent;
+    transition: all 1s linear;
+    color:#fff;
+}
+
+
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:.5em 0em;
+    margin:0em 0px 0px 0px;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+}
+
+.navLinks div {
+    font-size: 1.2rem;
+    margin:1.2em 1.2em 1.2em 1.2em;
+    display: flex;
+    flex-direction: row;
+}
+
+.navLinks div:hover {
+    cursor: pointer;
+}
+
+.navTextLink {
+    display: block;
+    margin:0px 0px 0px 0px;
+}
+
+
+.navWork, .navAbout, .navContact {
+    display: inline-block;
+    position: relative;
+}
+
+.navWork:after, 
+.navAbout:after,
+.navContact:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color:#fff;
+    transform-origin: center;
+    transition: transform 0.3s ease-out;
+
+}
+
+.navWork:hover:after,
+.navAbout:hover:after,
+.navContact:hover:after {
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
+.navCurrent::after {
+    transform: scaleX(1);
+}
+
+.navHamburger {
+    display: none;
+}
+
+@media only screen and (max-width:768px) {
+
+    .navHamburger {
+        display: flex;
+        margin:0em;
+    }
+
+    .navHamburger .material-symbols-outlined {
+        font-size: 3rem;
+    }
+
+    .navWrapper {
+        backdrop-filter: blur(8px) saturate(1);
+        height: 8vh;
+        padding:.3em 0em;
+        transition:all .3s ease-in;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .navWrapper:hover {
+        height:40vh;
+        backdrop-filter: blur(8px) saturate(2);
+    }
+
+    .navLinks {
+        flex-direction: column;
+        height:auto; 
+        opacity: 0;
+        transition: opacity .2s linear;
+        transition-delay: .2s;
+    }
+    
+    .navWrapper:hover .navLinks {
+        opacity:1;
+    }
+
+    .navLinks div {
+        font-size: 1.2rem;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 1em 0em;
+        padding:0em 0em;
+    }
+
+
+}
+
+
+

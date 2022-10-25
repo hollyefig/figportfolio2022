@@ -1,0 +1,521 @@
+.aboutWrapper {
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(23, 9, 16, 1);
+    /* background-image: url('/Users/hollyfigenshu/Desktop/Web Work/code/figportfolio2/src/imageAssets/aboutbg.png'); */
+    background-size: cover;
+    background-position: top;
+    margin:0vh 0px 0px 0px;
+}
+
+
+.aboutContent {
+    position: absolute;
+    width: 95%;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: all .5s ease-in;
+    transition-delay: .5s;
+}
+
+.aboutFadeIn {
+    opacity: 1;
+}
+
+.aboutCopy {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutLeft, .aboutRight {
+    display: flex;
+    flex-direction: column;
+    padding:1em;
+}
+
+.aboutStatsMobile {
+    display: none;
+}
+
+.aboutLeft {
+    flex:1;
+    align-items: center;
+}
+
+.aboutImgWrapper {
+    text-align: center;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.portrait {
+    width: 65%;
+    border-radius: 50%;
+    opacity: .8;
+    filter: grayscale(100%);
+}
+
+.resumeButton {
+    background-color: transparent;
+    border:2px solid #fff;
+    color:#fff;
+    padding:1em 2.5em;
+    font-weight:bold;
+    font-size: 1rem;
+    margin:1.5em 0px 0px 0px;
+}
+
+.resumeButton:hover {
+    cursor: pointer;
+}
+
+.aboutInfo {
+    padding:2em 1em 1em 1em;
+    font-size: 1rem;
+    font-style: italic;
+    line-height: 2em;
+}
+
+.aboutRight {
+    flex:2;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding:1.5em;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    align-items: center;
+}
+
+.aboutDesignWrapper, .aboutDevWrapper {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.designIcon, .devIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1em;
+}
+
+.designIcon .material-symbols-outlined, 
+.devIcon .material-symbols-outlined {
+    font-size: 4rem;
+}
+
+.designStatsWrapper, .devStatsWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.designStatsWrapper {
+    flex-direction: row;
+}
+
+.adobeAndFigmaWrapper {
+    display: flex;
+    flex-direction: row;
+    flex:2;
+    justify-content: center;
+    align-items: center;
+}
+
+.designStatsOtherWrapper {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: center;
+    padding:1em;
+}
+
+.designStatsOtherWrapper ul {
+    margin:-1em 1.5em 0px 0px;
+    font-size: .9rem;
+}
+
+ul.noStyle {
+    list-style-type: none;
+    margin:0px;
+}
+
+ul.noStyle li {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding:.2em 0em;
+}
+
+ul.noStyle li img {
+    width: 18px;
+    margin:0em .3em 0em 0em;
+}
+
+.designStatsOtherWrapper li {
+    padding:.2em 0em;
+}
+
+.devStatsWrapper {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex:2;
+}
+
+.devOtherStatsWrapper {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    padding:1em;
+}
+
+.devOtherStatsWrapper h4 {
+    line-height: 0px;
+}
+
+
+.adobeSkillWrapper,
+.figmaSkillWrapper,
+.htmlSkillWrapper,
+.cssSkillWrapper {
+    width: 160px;
+    height: 160px;
+    margin: 0em 1em;
+}
+
+.adobeOuter,
+.figmaOuter,
+.htmlOuter,
+.cssOuter {
+    width:160px;
+    height:160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adobePercent,
+.figmaPercent,
+.htmlPercent,
+.cssPercent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adobeIcon,
+.figmaIcon,
+.html5Icon,
+.css3Icon {
+    width: 25%;
+    height: auto;
+}
+
+.adobeHp,
+.figmaHp,
+.htmlHp,
+.cssHp {
+    position: relative;
+    top:-160px;
+    left:0;
+}
+
+.adobeHp circle,
+.figmaHp circle,
+.htmlHp circle,
+.cssHp circle {
+    fill:none;
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    transition: all 1s linear;
+    transition-delay: 1s;
+}
+
+.adobeHp circle {
+    stroke:rgb(224, 95, 172);
+}
+
+.figmaHp circle {
+    stroke:rgb(108, 224, 95);
+}
+
+.htmlHp circle {
+    stroke:rgb(242, 105, 67);
+}
+
+.cssHp circle {
+    stroke:rgb(67, 155, 242);
+}
+
+.adobeHpStart,
+.figmaHpStart,
+.htmlHpStart,
+.cssHpStart {
+    stroke-dashoffset: 471;
+}
+
+.adobeHpTransition,
+.htmlHpTransition {
+    stroke-dashoffset: 80;
+}
+
+.cssHpTransition {
+    stroke-dashoffset: 130;
+}
+
+.figmaHpTransition {
+    stroke-dashoffset: 250;
+}
+
+button a {
+    color:#fff;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:1024px) {
+
+    .aboutImgWrapper {
+        flex: 1;
+    }
+
+    .aboutButtonBlurb {
+        flex:1;
+    }
+
+    .portrait {
+        width: 40%;
+    }
+
+    .aboutInfo {
+        padding: 1em 1em 1em 1em;
+        font-size: .8rem;
+    }
+
+    .aboutCopy {
+        flex-direction: column;
+    }
+
+    .aboutLeft {
+        flex-direction: row;
+    }
+
+    .adobeHp circle,
+    .figmaHp circle,
+    .htmlHp circle,
+    .cssHp circle {
+        stroke-width: 10px;
+    }
+
+    .aboutRight {
+        flex-direction: row ;
+        padding:.5em 1.5em;
+        align-items: flex-start;
+        height:auto;
+    }
+
+    .aboutDesignWrapper, .aboutDevWrapper {
+        flex-direction: column;
+    }
+
+    .designIcon, .devIcon {
+        padding: 0em;
+    }
+
+    .designIcon .material-symbols-outlined, .devIcon .material-symbols-outlined {
+        font-size: 3rem;
+    }
+
+    .designStatsWrapper {
+        flex-direction: column;
+    }
+
+    .designStatsOtherWrapper, .devOtherStatsWrapper {
+        padding: 0em;
+        flex-direction: row;
+    }
+
+    .designStatsOtherWrapper ul, ul.noStyle {
+        padding:0em 1em;
+    }
+
+    .designStatsOtherWrapper h4, .devOtherStatsWrapper h4 {
+            font-size: .9rem;
+    }
+
+    .devOtherStatsWrapper ul {
+        font-size: .9rem;
+    }
+
+    .adobeOuter,
+    .figmaOuter,
+    .htmlOuter,
+    .cssOuter {
+        width:inherit;
+        height:inherit;
+    }
+
+    .adobeHp,
+    .figmaHp,
+    .htmlHp,
+    .cssHp {
+        top:-100px;
+        left:0;
+    }
+
+    .adobeSkillWrapper, .figmaSkillWrapper, .htmlSkillWrapper, .cssSkillWrapper {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .adobeHp circle, 
+    .figmaHp circle, 
+    .htmlHp circle, 
+    .cssHp circle {
+        stroke-dasharray: 480; 
+    }
+
+    .adobeHpTransition, .htmlHpTransition {
+        stroke-dashoffset: 265;
+    }
+
+    .figmaHpTransition {
+        stroke-dashoffset: 355;
+    }
+
+    .cssHpTransition {
+        stroke-dashoffset: 290;
+    }
+
+
+
+}
+
+@media only screen and (max-width:570px) {
+
+    .aboutLeft {
+        flex-direction: row;
+        padding:0em;
+    }
+
+    .aboutRight {
+        padding:0em;
+    }
+
+    .aboutInfo {
+        font-size: .6rem;
+    }
+
+    .resumeButton {
+        font-size: .7rem;
+    }
+
+    .aboutDesignWrapper, .aboutDevWrapper {
+        display: none;
+    }
+
+    .designIcon .material-symbols-outlined, 
+    .devIcon .material-symbols-outlined {
+        font-size: 2rem;
+    }
+
+    .designStatsOtherWrapper h4, .devOtherStatsWrapper h4 {
+        font-size: .7rem;
+        justify-content: space-evenly;
+    }
+
+    .designStatsOtherWrapper ul, .devOtherStatsWrapper ul {
+        font-size: .6rem;
+    }
+
+    .adobeAndFigmaWrapper, .devStatsWrapper {
+        justify-content: space-evenly;
+    }
+
+    .designStatsOtherWrapper, .devOtherStatsWrapper {
+        justify-content: space-evenly;
+    }
+
+    /* about stats mobile  */
+
+    .aboutStatsMobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .aboutStatsMobileWrapper {
+        display:flex;
+        flex-direction: column;
+        height:53vh;
+        padding:.5em;
+        width: 95%;
+    }
+
+    .aboutStatsTabs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .designTab, .devTab {
+        padding:.9em 3em;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+        width: 50%;
+        cursor: pointer;
+        /* background-color: #19060F; */
+        border:2px solid #22181d;
+    }
+
+    .tabActive {
+        background-color: #22181d;
+    }
+
+    .tabInactive {
+        background-color: transparent;
+    }
+
+    .aboutStatsDisplay {
+        background-color: #22181d;
+        height: inherit;
+        padding:.5em;
+    }
+
+}
+
+@media only screen and (max-width:425px) {
+    .aboutLeft {
+        flex-direction: column;
+    }
+
+    .aboutInfo {
+        text-align: center;
+    }
+
+    .portrait {
+        display: none;
+    }
+}
+
+
+
+
+

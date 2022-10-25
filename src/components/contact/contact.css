@@ -1,0 +1,269 @@
+.contactWrapper {
+    height:95vh;
+    width: 100%;
+    background-color: rgb(244, 236, 240);
+    display: flex;
+    justify-content: center;
+    background-image: url('/Users/hollyfigenshu/Desktop/Web Work/code/figportfolio2/src/imageAssets/contactbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.contactContent {
+    padding:2em;
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    transition: all .5s linear;
+    transition-delay: .5s;
+    opacity: 0;
+}
+
+.contactAppear {
+    opacity: 1;
+}
+
+.contactCopy {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactLeft, .contactRight {
+    display: flex;
+    flex:1;
+}
+
+.contactLeft {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:2em 1em;
+    width: 70%;
+    margin:1em 0em 0em 0em;
+}
+
+.contactButtons p {
+    line-height: 0px;
+}
+
+.contactButtons .material-symbols-outlined {
+    font-size: 2.5rem;
+}
+
+.contactButtons a {
+    text-decoration: none;
+    color:rgb(109, 49, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactEmail,
+.contactLinkedin {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.contactRight form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactInputs, .contactTextareaSubmit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactInputs {
+    width: 95%;
+}
+
+.contactTextareaSubmit {
+    width: 95%;
+}
+
+.nameBorder,
+.emailBorder,
+.subjectBorder,
+.messageBorder {
+    height:2px;
+    width: 0%;
+    position: relative;
+    top:-8px;
+    transition: all .3s linear;
+}
+
+.nameBorder {
+    background-color: rgb(224, 95, 172);
+}
+
+.emailBorder {
+    background-color: rgb(108, 224, 95);
+}
+
+.subjectBorder {
+    background-color: rgb(242, 105, 67);
+}
+
+.messageBorder {
+    background-color: rgb(67, 155, 242);
+}
+
+.contactRight input#name:focus ~ .nameBorder {
+    width: 95%;
+}
+
+.contactRight input#email:focus ~ .emailBorder {
+    width: 95%;
+}
+
+.contactRight input#subject:focus ~ .subjectBorder {
+    width: 95%;
+}
+
+.contactRight textarea#message:focus ~ .messageBorder {
+    width: 95%;
+}
+
+.contactRight input, .contactRight textarea {
+    margin:.5em 0em;
+    width: inherit;
+    padding:1.5em 1.5em;
+    background-color: rgb(32, 19, 24);
+    border:0px;
+    color:rgb(255, 255, 255);
+}
+
+.contactRight textarea {
+    height:25vh;
+    font-family: 'Open Sans', sans-serif;
+    resize: none;
+}
+
+.contactRight input::placeholder, .contactRight textarea::placeholder {
+    color:rgba(255, 255, 255, 0.5);
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contactRight input:focus::placeholder, 
+.contactRight textarea:focus::placeholder {
+    color: transparent;
+  }
+
+.contactRight input:focus, .contactRight textarea:focus {
+    outline: none;
+}
+
+.contactRight input:focus+.underline {
+    transform: scale(1);
+}
+
+
+.contactSubmit {
+    width: 95%;
+    border:0px;
+    padding:1.3em;
+    cursor: pointer;
+    background-color: rgba(66, 50, 111, 1);
+    color:#ffffff;
+    font-size: 1.2rem;
+    line-height: 0;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+}
+
+.buttonDisabled {
+    background-color: rgb(129, 117, 161);
+    cursor: not-allowed;
+}
+
+.formMessage {
+    margin:.5em 0em 0em 0em;
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width:768px) {
+
+    .contactCopy {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contactLeft {
+        flex-direction: row;
+        width: 80%;
+    }
+
+    .contactBlurb {
+        font-size: .8rem;
+    }
+
+    .contactBlurb h3 {
+        font-size:.9rem;
+    }
+
+    .contactRight {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contactRight form {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .contactRight textarea {
+        height: 22vh;
+    }
+
+    .contactSubmit {
+        padding: 1em;
+    }
+
+}
+
+@media only screen and (max-width:570px) {
+
+    .contactContent {
+        padding: 2em 1em 1em 1em;
+    }
+
+    .contactLeft {
+        width: 95%;
+    }
+
+    .contactButtons {
+        flex-direction: column;
+    }
+
+    .contactEmail {
+        align-items: flex-start;
+    }
+
+    .contactLinkedin {
+        align-items: flex-end;
+    }
+
+
+}

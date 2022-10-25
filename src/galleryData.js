@@ -1,0 +1,75 @@
+import PokePartyPrev from "./galleryData/pokePartyPrev.png";
+import illustrationPrev from "./galleryData/illustPrev.png";
+import wiiuaaPrev from "./galleryData/wiiuaaPrev.png";
+import vectorPrev from "./galleryData/vectorPrev.png";
+import tractivePrev from "./galleryData/tractivePrev.png";
+import pokePartyDisplay from "./galleryData/pokePartyDisplay.png";
+import illust1 from "./galleryData/illust1.jpg";
+import illust2 from "./galleryData/illust2.jpg";
+import illust3 from "./galleryData/illust3.jpg";
+import illust4 from "./galleryData/illust4.jpg";
+import wiiuaaDisplay from "./galleryData/wiiuaaDisplay.png";
+import vector1 from "./galleryData/vector1.png";
+import vector2 from "./galleryData/vector2.png";
+import vector3 from "./galleryData/vector3.png";
+import vector4 from "./galleryData/vector4.jpeg";
+import tractive1 from "./galleryData/tractive1.jpg";
+import tractive2 from "./galleryData/tractive2.jpg";
+import tractive3 from "./galleryData/tractive3.jpg";
+import tractive4 from "./galleryData/tractive4.jpg";
+export const GalleryData = [
+  {
+    id: 1,
+    name: "PokeParty",
+    preview: PokePartyPrev,
+    description:
+      "This project was created as a way for me to practice Javascript and React. Grabbing data from a Pokemon API, this site has the user build their own Pokemon Party through randomizing Pokemon selection.",
+    display: [pokePartyDisplay],
+    url: "https://hollyefig.github.io/pokeParty/",
+    github: "https://github.com/hollyefig/pokeParty",
+  },
+
+  {
+    id: 2,
+    name: "Illustration",
+    preview: illustrationPrev,
+    description:
+      "Digital illustrations that I've done in my free time. I mostly enjoy creating art for my favorite video games or Dungeons & Dragons Campaigns. All done using the Procreate App for iPad and Apple Pencil.",
+    display: [illust1, illust2, illust3, illust4],
+    url: false,
+    github: false,
+  },
+
+  {
+    id: 3,
+    name: "Art Guide",
+    preview: wiiuaaPrev,
+    description:
+      "Art Academy is a downloadable app for the Nintendo WiiU gaming console. The app is a sketchpad and coloring tool for users to create art on. However, it provides no instructions on how to use, which has lead many users to confusion on where to start. This website provides some basic step by steps on how to utilize the tools, build up layers, and properly export their artwork online.",
+    display: [wiiuaaDisplay],
+    url: "http://hollyfig.com/artacademytutorial/index.html",
+    github: false,
+  },
+
+  {
+    id: 4,
+    name: "Vector Art",
+    preview: vectorPrev,
+    description:
+      "An ongoing series of illustrated posters featuring some of my favorite media. Pictures are initially sketched out on paper, then brought into Adobe Illustrator for color.",
+    display: [vector1, vector2, vector3, vector4],
+    url: false,
+    github: false,
+  },
+
+  {
+    id: 5,
+    name: "Tractive App",
+    preview: [tractivePrev],
+    description:
+      "A mockup for a client. Tractive is a tracker app for parents to use on their phone which can track a child's active and inactive time. The child gets rewarded time for video game activity if they input the appropriate physical activity, and monitor when a child has overdone their time on gaming.",
+    display: [tractive1, tractive2, tractive3, tractive4],
+    url: false,
+    github: false,
+  },
+];

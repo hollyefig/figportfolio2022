@@ -1,0 +1,399 @@
+.workWrapper {
+    height: 100vh;
+    width: 100%;
+    margin:0vh 0px 0px 0px;
+
+}
+
+.workContent {
+    background-color: rgba(23, 9, 16, 1);
+    height: inherit;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    
+}
+
+
+.workGalleryBoxes {
+    width: 95%;
+    height:70vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity:0;
+    transition: all .3s ease-in;
+    transition-delay: .5s;
+}
+
+.displayWrapper {
+    transition: all .2s ease-in;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.displayName {
+    padding:0px 0px 1em 0px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    opacity: 0;
+    transition: all .1s linear;
+}
+
+.displayBox {
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin:0px -100px;
+    background-color: rgb(18, 5, 12);
+    overflow: hidden;
+}
+
+.displayBox img {
+    opacity: .3;
+    transition: all .1s ease-in;
+    width: 100%;
+}
+
+.displayWrapper:hover {
+    transform: translateY(-70px);
+}
+
+.displayWrapper:hover .displayName {
+    opacity: 1;
+}
+
+.displayBox img:hover {
+    opacity: 1;
+}
+
+.displayBoxWrapperFadeOut {
+    opacity:0;
+    visibility: hidden;
+    height:0px;
+}
+
+
+.displayNone {
+    height: 0px;
+    opacity: 0;
+}
+
+.galleryFadeIn {
+    opacity:1;
+}
+
+.galleryFadeOut {
+    opacity:0;
+}
+
+/* gallery item showcase */
+
+.galleryItemDisplay {
+    width: 90%;
+    height: 70vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 1s linear;
+    transition-delay: .5s;
+    position: absolute;
+    top:20%;
+}
+
+.galleryItemShow {
+    opacity:1;
+}
+
+.galleryLeft, .galleryRight {
+    display: flex;
+    flex:1;
+    align-items: center;
+    padding:2em;
+    color:#ffffff;
+}
+
+.galleryLeft {
+    justify-content: center;
+}
+
+.galleryDisplayImg {
+    width: 100%;
+}
+
+.galleryRight {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+
+.galleryRightButtons {
+    width: 100%;
+}
+
+.viewAndGithub > * {
+    width: 50%;
+}
+
+.galleryRight h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+.galleryDescription {
+    text-align: justify;
+    font-size: .9rem;
+    color:#c8b2b7;
+    line-height: 1.3rem;
+}
+
+.viewAndGithub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:1em 0em;
+}
+
+.viewLink {
+    padding:1em 1em;
+    border:2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0em 1em 0em 0em;
+}
+
+.viewAndGithub a {
+    text-decoration: none;
+    color:#fff;
+}
+
+.viewLink a:hover {
+    text-decoration: underline;
+}
+
+.viewLink .material-symbols-outlined {
+    margin:0em 0em 0em .2em;
+}
+
+.galleryBack {
+    background-color: #fff;
+    color:#000;
+    border:none;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin:1em 0em 0em 0em;
+}
+
+.galleryBack .material-symbols-outlined {
+    font-size: 3.5rem;
+}
+
+/* slider */
+
+.sliderWrapper {
+    width: 90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.sliderLeft, .sliderRight {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    user-select: none;
+    padding:8em 0em;
+}
+
+.sliderLeft {
+    justify-content: flex-start;
+}
+
+.sliderRight {
+    justify-content: flex-end;
+}
+
+.sliderLeft .material-symbols-outlined, 
+.sliderRight .material-symbols-outlined {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.sliderImg {
+    width:auto;
+    height: 67vh;
+}
+
+.slideTransition {
+    opacity: 0;
+    transition-duration: 1s ease;
+    transform:translateX(100px);
+}
+
+.slideTransition.active {
+    opacity: 1;
+    transition-duration: .5s;
+    transform:translateX(0px);
+}
+
+@media only screen and (max-width: 950px) {
+
+    .displayWrapper:hover {
+        transform: none;
+    }
+
+    .workGalleryBoxes {
+        display: grid;
+        gap: 1em;
+        grid-template-columns: repeat(3, 32vh);
+        /* text-align: center; */
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        padding: 0.5em;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        position: relative;
+    }
+
+    .displayWrapper {
+        scroll-snap-align: center;
+        width: 100%;
+    }
+
+    .displayName {
+        display: none;
+    }
+
+    .displayWrapper {
+        width: auto;
+        align-items: center;
+    }
+
+    .displayBox {
+        width: auto;
+        height: auto;
+        border-radius: 0%;
+        margin:0px 0px;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+
+    .galleryItemDisplay {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .galleryLeft, .galleryRight {
+        padding:.5em;
+    }
+
+    .galleryDisplayImg {
+        width: 425px;
+    }
+
+    /* 
+    .galleryRight {
+        flex-direction: row;
+    } */
+
+    .galleryRight > * {
+        padding:.5em;
+    }
+
+    .galleryRight h1 {
+        margin: 0em;
+        font-size: 1.3rem;
+    }
+
+    .viewAndGithub {
+        font-size: .6rem;
+    }
+    
+    .galleryBack {
+        font-size: 1rem;
+    }
+
+    .galleryBack .material-symbols-outlined {
+        font-size: 2rem;
+    }
+
+    .sliderImg {
+        height: 46vh;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width:705px) {
+
+    .workGalleryBoxes {
+        display: grid;
+        gap: 1em;
+        grid-template-columns: repeat(5, 300px);
+        /* text-align: center; */
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        padding: 0.5em;
+        overflow-x: scroll;
+    }
+
+    .workContent {
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width:425px) {
+
+    .galleryDisplayImg {
+        width: 42vh;
+    }
+
+    .galleryRight {
+        flex-direction: column;
+    }
+
+    .viewAndGithub {
+        width: 100%;
+    }
+
+
+    .galleryRight div:nth-child(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sliderImg {
+        height: 44vh;
+        overflow: hidden;
+    }
+}
+
+
