@@ -68,7 +68,7 @@ code {
 @media only screen and (max-width: 768px) {
 
   .workTitle, .aboutTitle {
-    margin: 1.8em 0em 0em 0em;
+    margin: 0em 0em 0em 0em;
 }
 
 .aboutTitle {
