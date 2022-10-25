@@ -25,9 +25,6 @@ export default function Nav({
   return (
     <div className={`navWrapper`}>
       {/* desktop nav  */}
-      <div className='navHamburger'>
-        <span class='material-symbols-outlined'>menu</span>
-      </div>
       <div className={`navLinks `}>
         <div
           className={`navWork ${workVisible ? "navCurrent" : null} 
