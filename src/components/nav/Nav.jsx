@@ -27,8 +27,7 @@ export default function Nav({
       {/* desktop nav  */}
       <div className={`navLinks `}>
         <div
-          className={`navWork ${workVisible ? "navCurrent" : null} 
-              
+          className={`navWork ${workVisible ? "navCurrent" : null}  
           `}
           onClick={clickWork}
         >

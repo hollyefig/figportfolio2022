@@ -78,43 +78,17 @@
 
 @media only screen and (max-width:768px) {
 
-    .navHamburger {
-        display: flex;
-        margin:0em;
-    }
-
-    .navHamburger .material-symbols-outlined {
-        font-size: 3rem;
-    }
-
     .navWrapper {
-        backdrop-filter: blur(8px) saturate(1);
-        height: 8vh;
-        padding:.3em 0em;
-        transition:all .3s ease-in;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-    
-    .navWrapper:hover {
-        height:40vh;
-        backdrop-filter: blur(8px) saturate(2);
+        justify-content: space-evenly;
     }
 
     .navLinks {
-        flex-direction: column;
-        height:auto; 
-        opacity: 0;
-        transition: opacity .2s linear;
-        transition-delay: .2s;
-    }
-    
-    .navWrapper:hover .navLinks {
-        opacity:1;
+        width: 100%;
+        justify-content: space-evenly;
     }
 
     .navLinks div {
-        font-size: 1.2rem;
+        font-size: .9rem;
         flex-direction: row;
         align-items: center;
         justify-content: center;
