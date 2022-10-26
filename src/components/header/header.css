@@ -73,7 +73,8 @@
 @media only screen and (max-width: 1024px) {
 
     .headerWrapper {
-        background-position: center;
+        background-position-x: 50%;
+        background-position-y: -17vh;
     }
 
     .signature {
@@ -87,8 +88,8 @@
 
 @media only screen and (max-width:768px) {
     .headerBottom {
-        background-image: linear-gradient(180deg, #170910 0%, #170910 100%);
-        background: -webkit-linear-gradient(180deg, #170910 0%, #170910 100%);
+        background-image: linear-gradient(270deg, #170910 0%, #170910 100%);
+        background: -webkit-linear-gradient(270deg, #170910 0%, #170910 100%);
     }
 }
 
