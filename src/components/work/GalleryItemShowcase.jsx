@@ -23,7 +23,7 @@ export default function GalleryItemShowcase({
   return (
     <div
       className={`galleryItemDisplay ${
-        galleryDisplay ? null : "galleryItemShow"
+        galleryDisplay ? "" : "galleryItemShow"
       }`}
     >
       <div className='galleryLeft'>

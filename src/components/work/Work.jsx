@@ -51,11 +51,15 @@ export default function Work({ workRef, workVisible }) {
           </div>
         </div>
 
-        <GalleryItemShowcase
-          selectedData={selectedData}
-          galleryReturn={galleryReturn}
-          galleryDisplay={galleryDisplay}
-        />
+        {selectedData === undefined ? null : (
+          <>
+            <GalleryItemShowcase
+              selectedData={selectedData}
+              galleryReturn={galleryReturn}
+              galleryDisplay={galleryDisplay}
+            />
+          </>
+        )}
       </div>
     </div>
   );
