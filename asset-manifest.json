@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/figportfolio2022/static/css/main.38697458.css",
-    "main.js": "/figportfolio2022/static/js/main.dc766c9e.js",
+    "main.js": "/figportfolio2022/static/js/main.01315164.js",
     "static/media/resume.pdf": "/figportfolio2022/static/media/resume.68ef4a815a164d7b8888.pdf",
     "static/media/contactbg.png": "/figportfolio2022/static/media/contactbg.7b88cbd6afcb4ee805a0.png",
     "static/media/illust1.jpg": "/figportfolio2022/static/media/illust1.413269384319758e83e2.jpg",
@@ -21,19 +21,19 @@
     "static/media/vectorPrev.png": "/figportfolio2022/static/media/vectorPrev.b851634a0d3f6aaa4fd1.png",
     "static/media/pokePartyDisplay.png": "/figportfolio2022/static/media/pokePartyDisplay.4fb164d58d84496c045d.png",
     "static/media/illust4.jpg": "/figportfolio2022/static/media/illust4.f10f125c5caa5824d1ca.jpg",
-    "static/media/tractive4.jpg": "/figportfolio2022/static/media/tractive4.976a7c3e23345d3c5bde.jpg",
-    "static/media/tractive1.jpg": "/figportfolio2022/static/media/tractive1.5cb257d2796155f026d7.jpg",
-    "static/media/tractive2.jpg": "/figportfolio2022/static/media/tractive2.fabc1499c4478ad6c31a.jpg",
     "static/media/signature.png": "/figportfolio2022/static/media/signature.ddf76f306be372f749f8.png",
-    "static/media/tractive3.jpg": "/figportfolio2022/static/media/tractive3.64ff33daa04a19556f68.jpg",
+    "static/media/tractive1Phone.png": "/figportfolio2022/static/media/tractive1Phone.1087717637d72564b144.png",
+    "static/media/tractive4Phone.png": "/figportfolio2022/static/media/tractive4Phone.ab662aec9850ee40c209.png",
+    "static/media/tractive2Phone.png": "/figportfolio2022/static/media/tractive2Phone.56be43861c09a493572f.png",
+    "static/media/tractive3Phone.png": "/figportfolio2022/static/media/tractive3Phone.867ef14c285922a0eb47.png",
     "static/media/tractivePrev.png": "/figportfolio2022/static/media/tractivePrev.0d161bee32279a9fa5ba.png",
     "static/media/jqIcon.png": "/figportfolio2022/static/media/jqIcon.6ae16b1996cb99830516.png",
     "index.html": "/figportfolio2022/index.html",
     "main.38697458.css.map": "/figportfolio2022/static/css/main.38697458.css.map",
-    "main.dc766c9e.js.map": "/figportfolio2022/static/js/main.dc766c9e.js.map"
+    "main.01315164.js.map": "/figportfolio2022/static/js/main.01315164.js.map"
   },
   "entrypoints": [
     "static/css/main.38697458.css",
-    "static/js/main.dc766c9e.js"
+    "static/js/main.01315164.js"
   ]
 }
