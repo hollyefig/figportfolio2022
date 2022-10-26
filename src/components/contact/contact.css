@@ -45,7 +45,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding:2em 1em;
+    padding:.5em;
     width: 70%;
     margin:1em 0em 0em 0em;
 }
@@ -58,6 +58,11 @@
     font-size: 2.5rem;
 }
 
+.githubIcon {
+    width: 40px;
+    height: auto;
+}
+
 .contactButtons a {
     text-decoration: none;
     color:rgb(109, 49, 76);
@@ -68,7 +73,8 @@
 }
 
 .contactEmail,
-.contactLinkedin {
+.contactLinkedin,
+.contactGithub {
     display: flex;
     flex:1;
     flex-direction: column;
@@ -211,12 +217,16 @@
     }
 
     .contactLeft {
-        flex-direction: row;
         width: 95%;
     }
 
     .contactBlurb {
         font-size: .8rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .contactBlurb h3 {
@@ -256,19 +266,6 @@
     .contactButtons .material-symbols-outlined {
         font-size: 2rem;
     }
-
-    .contactButtons {
-        flex-direction: column;
-        padding:0em;
-    }
-
-    .contactEmail {
-        align-items: flex-start;
-    }
-
-    .contactLinkedin {
-        align-items: flex-end;
-    }
     
     .contactRight form {
         flex-direction: column;
@@ -279,5 +276,8 @@
         padding:.9em;
     }
 
+    .contactButtons {
+        width: 95%;
+    }
 
 }
