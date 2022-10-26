@@ -90,13 +90,6 @@
     opacity: 1;
 }
 
-.displayBoxWrapperFadeOut {
-    opacity:0;
-    visibility: hidden;
-    height:0px;
-}
-
-
 .displayNone {
     height: 0px;
     opacity: 0;

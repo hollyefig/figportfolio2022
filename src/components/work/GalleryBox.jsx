@@ -2,11 +2,7 @@ import React from "react";
 
 export default function galleryBox({ galleryShowcase, galleryDisplay, data }) {
   return (
-    <div
-      className={`displayWrapper ${
-        galleryDisplay ? null : "displayBoxWrapperFadeOut"
-      }`}
-    >
+    <div className='displayWrapper'>
       <div className='displayName seablue'>{data.name}</div>
       <div
         className='displayBox'
