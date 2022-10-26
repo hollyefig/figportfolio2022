@@ -25,34 +25,37 @@ export default function Work({ workRef, workVisible }) {
     <div className='workWrapper scrollSnap'>
       <div className='workContent' ref={workRef}>
         <div
-          className={`workTitle seablue elsie ${
-            workVisible ? "workTitleFadeIn" : null
-          } ${galleryDisplay ? null : "displayNone"}`}
+          className={`titleAndGallery ${
+            galleryDisplay ? null : "titleAndGallerySlideUp"
+          }`}
         >
-          <h1>Work</h1>
+          <div
+            className={`workTitle seablue elsie ${
+              workVisible ? "workTitleFadeIn" : null
+            }`}
+          >
+            <h1>Work</h1>
+          </div>
+          <div
+            className={`workGalleryBoxes ${
+              workVisible ? "galleryFadeIn" : null
+            }`}
+          >
+            {GalleryData.map((obj) => (
+              <GalleryBox
+                data={obj}
+                galleryDisplay={galleryDisplay}
+                galleryShowcase={galleryShowcase}
+              />
+            ))}
+          </div>
         </div>
-        <div
-          className={`workGalleryBoxes ${workVisible ? "galleryFadeIn" : null} 
-              ${galleryDisplay ? null : "displayNone"}
-            `}
-        >
-          {GalleryData.map((obj) => (
-            <GalleryBox
-              data={obj}
-              galleryDisplay={galleryDisplay}
-              galleryShowcase={galleryShowcase}
-            />
-          ))}
-        </div>
-        {galleryDisplay ? null : (
-          <>
-            <GalleryItemShowcase
-              selectedData={selectedData}
-              galleryReturn={galleryReturn}
-              galleryDisplay={galleryDisplay}
-            />
-          </>
-        )}
+
+        <GalleryItemShowcase
+          selectedData={selectedData}
+          galleryReturn={galleryReturn}
+          galleryDisplay={galleryDisplay}
+        />
       </div>
     </div>
   );
