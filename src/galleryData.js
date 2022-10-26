@@ -4,6 +4,8 @@ import wiiuaaPrev from "./galleryData/wiiuaaPrev.png";
 import vectorPrev from "./galleryData/vectorPrev.png";
 import tractivePrev from "./galleryData/tractivePrev.png";
 import pokePartyDisplay from "./galleryData/pokePartyDisplay.png";
+import pokeParty2 from "./galleryData/pokeParty2.png";
+import pokeParty3 from "./galleryData/pokeParty3.png";
 import illust1 from "./galleryData/illust1.jpg";
 import illust2 from "./galleryData/illust2.jpg";
 import illust3 from "./galleryData/illust3.jpg";
@@ -24,7 +26,7 @@ export const GalleryData = [
     preview: PokePartyPrev,
     description:
       "This project was created as a way for me to practice Javascript and React. Grabbing data from a Pokemon API, this site has the user build their own Pokemon Party through randomizing Pokemon selection.",
-    display: [pokePartyDisplay],
+    display: [pokePartyDisplay, pokeParty2, pokeParty3],
     url: "https://hollyefig.github.io/pokeParty/",
     github: "https://github.com/hollyefig/pokeParty",
   },

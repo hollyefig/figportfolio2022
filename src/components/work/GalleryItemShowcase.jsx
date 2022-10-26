@@ -41,7 +41,12 @@ export default function GalleryItemShowcase({
                   }`}
                 >
                   {index === galleryNum && (
-                    <img src={url} className='sliderImg' />
+                    <img
+                      src={url}
+                      className={
+                        selectedData.id === 1 ? "sliderImg2" : "sliderImg"
+                      }
+                    />
                   )}
                 </div>
               );

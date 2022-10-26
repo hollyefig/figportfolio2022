@@ -261,6 +261,11 @@
     height: 67vh;
 }
 
+.sliderImg2 {
+    width:50vw;
+    height: auto;
+}
+
 .slideTransition {
     opacity: 0;
     transition-duration: 1s ease;
@@ -377,6 +382,11 @@
 
     .sliderImg {
         height: 46vh;
+        overflow: hidden;
+    }
+    
+    .sliderImg2 {
+        width: 75vw;
         overflow: hidden;
     }
 }
