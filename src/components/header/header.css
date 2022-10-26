@@ -7,7 +7,7 @@
     background-size: cover;
     position: relative;
     flex-direction: column;
-    background-position-y: -4vh;
+    background-position-y: -27vh;
     background-repeat: no-repeat;
     background-color:#170910;
 }
@@ -62,10 +62,8 @@
 }
 
 .headerBottom {
-    /* background-image: linear-gradient(180deg, #170910 0%, #170910 100%);
-    background: -webkit-linear-gradient(180deg, #170910 0%, #170910 100%); */
-    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(23, 9, 16, 1));
-    background: -webkit-linear-gradient(to bottom, rgba(255,0,0,0), rgba(23, 9, 16, 1));
+    /* background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(23, 9, 16, 1)); */
+    /* background: -webkit-linear-gradient(to bottom, rgba(255,0,0,0), rgba(23, 9, 16, 1)); */
     height:20vh;
     width: 100%;
 }
