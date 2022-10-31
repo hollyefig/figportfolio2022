@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/figportfolio2022/static/css/main.7f891b04.css",
-    "main.js": "/figportfolio2022/static/js/main.05d7fe2a.js",
+    "main.css": "/figportfolio2022/static/css/main.940388a2.css",
+    "main.js": "/figportfolio2022/static/js/main.0a0b1da0.js",
     "static/media/resume.pdf": "/figportfolio2022/static/media/resume.68ef4a815a164d7b8888.pdf",
     "static/media/contactbg.png": "/figportfolio2022/static/media/contactbg.7b88cbd6afcb4ee805a0.png",
     "static/media/illust1.jpg": "/figportfolio2022/static/media/illust1.413269384319758e83e2.jpg",
@@ -31,11 +31,11 @@
     "static/media/tractivePrev.png": "/figportfolio2022/static/media/tractivePrev.0d161bee32279a9fa5ba.png",
     "static/media/jqIcon.png": "/figportfolio2022/static/media/jqIcon.6ae16b1996cb99830516.png",
     "index.html": "/figportfolio2022/index.html",
-    "main.7f891b04.css.map": "/figportfolio2022/static/css/main.7f891b04.css.map",
-    "main.05d7fe2a.js.map": "/figportfolio2022/static/js/main.05d7fe2a.js.map"
+    "main.940388a2.css.map": "/figportfolio2022/static/css/main.940388a2.css.map",
+    "main.0a0b1da0.js.map": "/figportfolio2022/static/js/main.0a0b1da0.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f891b04.css",
-    "static/js/main.05d7fe2a.js"
+    "static/css/main.940388a2.css",
+    "static/js/main.0a0b1da0.js"
   ]
 }
