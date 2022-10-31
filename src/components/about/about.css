@@ -188,6 +188,11 @@ ul.noStyle li img {
     line-height: 0px;
 }
 
+.devPrograms p {
+    font-size: .8rem;
+    font-style: italic;
+}
+
 
 .adobeSkillWrapper,
 .figmaSkillWrapper,
@@ -497,6 +502,21 @@ button a {
         background-color: #22181d;
         height: inherit;
         padding:.5em;
+    }
+
+    .adobePrograms,
+    .otherDesignPrograms,
+    .codeLanguages, 
+    .devPrograms {
+        display: flex;
+        flex:1;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin:0em 0em 0em .7em;
+    }
+
+    .devPrograms p {
+        font-size: .6rem;
     }
 
 }

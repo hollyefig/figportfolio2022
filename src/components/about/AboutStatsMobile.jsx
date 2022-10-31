@@ -241,6 +241,10 @@ export default function AboutStatsMobile({
                       Visual Studio Code
                     </li>
                   </ul>
+                  <p>
+                    Currently expanding my code knowledge via The Odin Project
+                    &amp; Codecademy
+                  </p>
                 </div>
               </div>
             </div>

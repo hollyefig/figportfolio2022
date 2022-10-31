@@ -4,7 +4,7 @@
     background-color: rgb(244, 236, 240);
     display: flex;
     justify-content: center;
-    background-image: url('/Users/hollyfigenshu/Desktop/Web Work/code/figportfolio2/src/imageAssets/contactbg.png');
+    background-image: url('../../imageAssets/contactbg.png');
     background-size: cover;
     background-repeat: no-repeat;
 }

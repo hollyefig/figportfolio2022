@@ -3,7 +3,7 @@
     height: 100vh;
     width: 100%;
     justify-content: space-between;
-    background-image: url('/Users/hollyfigenshu/Desktop/Web Work/code/figportfolio2/src/imageAssets/header.jpg');
+    background-image: url('../../imageAssets/header.jpg');
     background-size: cover;
     position: relative;
     flex-direction: column;
@@ -15,7 +15,7 @@
 .sparkles {
     height: 100vh;
     width: 100%;
-    background-image: url('/Users/hollyfigenshu/Desktop/Web Work/code/figportfolio2/src/imageAssets/sparkles.PNG');
+    background-image: url('../../imageAssets/sparkles.PNG');
     position: absolute;
     background-size: cover;
     z-index: 10;

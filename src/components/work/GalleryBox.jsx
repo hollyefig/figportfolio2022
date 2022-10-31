@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function galleryBox({ galleryShowcase, galleryDisplay, data }) {
+export default function galleryBox({ galleryShowcase, data }) {
   return (
     <div className='displayWrapper'>
       <div className='displayName seablue'>{data.name}</div>

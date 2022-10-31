@@ -42,11 +42,7 @@ export default function Work({ workRef, workVisible }) {
             }`}
           >
             {GalleryData.map((obj) => (
-              <GalleryBox
-                data={obj}
-                galleryDisplay={galleryDisplay}
-                galleryShowcase={galleryShowcase}
-              />
+              <GalleryBox data={obj} galleryShowcase={galleryShowcase} />
             ))}
           </div>
         </div>
