@@ -71,7 +71,7 @@ export const GalleryData = [
     description:
       "Art Academy is a downloadable app for the Nintendo WiiU gaming console. The app is a sketchpad and coloring tool for users to create art on. However, it provides no instructions on how to use, which has lead many users to confusion on where to start. This website provides some basic step by steps on how to utilize the tools, build up layers, and properly export their artwork online.",
     display: [wiiuaaDisplay],
-    url: "http://hollyfig.com/artacademytutorial/index.html",
+    url: "https://hollyfig.com/_old/artacademytutorial/index.html",
     github: false,
   },
 ];
