@@ -320,7 +320,7 @@
     .workGalleryBoxes {
         display: grid;
         gap: 1em;
-        grid-template-columns: repeat(5, 300px);
+        grid-template-columns: repeat(6, 300px);
         /* text-align: center; */
         justify-content: flex-start;
         width: 100%;
