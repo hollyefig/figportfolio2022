@@ -3,6 +3,7 @@ import illustrationPrev from "./galleryData/illustPrev.png";
 import wiiuaaPrev from "./galleryData/wiiuaaPrev.png";
 import vectorPrev from "./galleryData/vectorPrev.png";
 import tractivePrev from "./galleryData/tractivePrev.png";
+import pbPrev from "./galleryData/PBprev.jpg";
 import pokePartyDisplay from "./galleryData/pokePartyDisplay.png";
 import pokeParty2 from "./galleryData/pokeParty2.png";
 import pokeParty3 from "./galleryData/pokeParty3.png";
@@ -19,6 +20,11 @@ import tractive1 from "./galleryData/tractive1Phone.png";
 import tractive2 from "./galleryData/tractive2Phone.png";
 import tractive3 from "./galleryData/tractive3Phone.png";
 import tractive4 from "./galleryData/tractive4Phone.png";
+import pb1 from "./galleryData/PB_refs1.png";
+import pb2 from "./galleryData/PB_refs2.png";
+import pb3 from "./galleryData/PB_refs3.png";
+import pb4 from "./galleryData/PB_refs4.png";
+import pbPdf from "./galleryData/PB_pdf.pdf";
 export const GalleryData = [
   {
     id: 1,
@@ -33,6 +39,16 @@ export const GalleryData = [
 
   {
     id: 2,
+    name: "Pep Boys Branding",
+    preview: pbPrev,
+    description: `Email and Web designs done for Pep Boys. Each piece was designed using Adobe Creative Suite, then coded together with HTML, CSS and responsive CSS media queries. Emails were also tested using Litmus Testing to ensure they displayed correctly across all platforms.`,
+    display: [pb1, pb2, pb3, pb4],
+    url: pbPdf,
+    github: false,
+  },
+
+  {
+    id: 3,
     name: "Illustration",
     preview: illustrationPrev,
     description:
@@ -43,7 +59,7 @@ export const GalleryData = [
   },
 
   {
-    id: 3,
+    id: 4,
     name: "Tractive App",
     preview: [tractivePrev],
     description:
@@ -54,7 +70,7 @@ export const GalleryData = [
   },
 
   {
-    id: 4,
+    id: 5,
     name: "Vector Art",
     preview: vectorPrev,
     description:
@@ -65,7 +81,7 @@ export const GalleryData = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: "Art Guide",
     preview: wiiuaaPrev,
     description:
