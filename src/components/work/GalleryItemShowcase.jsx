@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 export default function GalleryItemShowcase({
   selectedData,
@@ -19,6 +19,22 @@ export default function GalleryItemShowcase({
       ? setGalleryNum(0)
       : setGalleryNum((num) => num + 1);
   };
+
+  const pressed = (e) => {
+    console.log("key pressed");
+    if (e.key === "ArrowLeft") {
+      slideLeft();
+    } else if (e.key === "ArrowRight") {
+      slideRight();
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("keydown", pressed);
+    return () => {
+      window.removeEventListener("keydown", pressed);
+    };
+  });
 
   return (
     <div
