@@ -68,13 +68,14 @@ export default function GalleryItemShowcase({
         </div>
 
         <div className='galleryRightButtons'>
-          {selectedData.id === 2 || selectedData.id === 4 ? null : (
+          {selectedData.url === false &&
+          selectedData.github === false ? null : (
             <>
               <div className='viewAndGithub'>
                 {selectedData.url === false ? null : (
-                  <a href={selectedData.url} target='_blank'>
+                  <a href={selectedData.url} target='_blank' rel='noreferrer'>
                     <div className='viewLink'>
-                      View Website
+                      View {selectedData.id === 2 ? "PDFs" : "Website"}
                       <span class='material-symbols-outlined'>
                         arrow_outward
                       </span>
@@ -84,7 +85,11 @@ export default function GalleryItemShowcase({
 
                 {selectedData.github === false ? null : (
                   <>
-                    <a href={selectedData.github} target='_blank'>
+                    <a
+                      href={selectedData.github}
+                      target='_blank'
+                      rel='noreferrer'
+                    >
                       <div className='viewLink'>
                         View GitHub
                         <span class='material-symbols-outlined'>
