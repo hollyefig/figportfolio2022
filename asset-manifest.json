@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/figportfolio2022/static/css/main.940388a2.css",
-    "main.js": "/figportfolio2022/static/js/main.0a0b1da0.js",
+    "main.css": "/figportfolio2022/static/css/main.8c441b6b.css",
+    "main.js": "/figportfolio2022/static/js/main.c6e6b7fd.js",
+    "static/media/PB_pdf.pdf": "/figportfolio2022/static/media/PB_pdf.385ae992bd4f107b239b.pdf",
     "static/media/resume.pdf": "/figportfolio2022/static/media/resume.68ef4a815a164d7b8888.pdf",
     "static/media/contactbg.png": "/figportfolio2022/static/media/contactbg.7b88cbd6afcb4ee805a0.png",
     "static/media/illust1.jpg": "/figportfolio2022/static/media/illust1.413269384319758e83e2.jpg",
@@ -14,12 +15,17 @@
     "static/media/vector4.jpeg": "/figportfolio2022/static/media/vector4.ff929b8543204f07ddbf.jpeg",
     "static/media/pokePartyPrev.png": "/figportfolio2022/static/media/pokePartyPrev.e0f47019b5fb21bf47c3.png",
     "static/media/wiiuaaDisplay.png": "/figportfolio2022/static/media/wiiuaaDisplay.cbeea5086f6c8d57a8ea.png",
+    "static/media/PB_refs2.png": "/figportfolio2022/static/media/PB_refs2.de81f9995d1771e53c0c.png",
+    "static/media/PB_refs1.png": "/figportfolio2022/static/media/PB_refs1.cc90139283d0684edc6d.png",
+    "static/media/PB_refs3.png": "/figportfolio2022/static/media/PB_refs3.b1ea6ca0e9c6ae5991e0.png",
     "static/media/pokeParty3.png": "/figportfolio2022/static/media/pokeParty3.0d704ae9f61f448c522d.png",
     "static/media/vector1.png": "/figportfolio2022/static/media/vector1.e80a81c58a5eb711125f.png",
     "static/media/pokeParty2.png": "/figportfolio2022/static/media/pokeParty2.9ae24f9fe306986ba997.png",
     "static/media/vector3.png": "/figportfolio2022/static/media/vector3.6f613148a157b321268b.png",
     "static/media/vector2.png": "/figportfolio2022/static/media/vector2.e91fccd7dbe16f64f258.png",
     "static/media/sparkles.PNG": "/figportfolio2022/static/media/sparkles.992e0425fd2da0ec0907.PNG",
+    "static/media/PB_refs4.png": "/figportfolio2022/static/media/PB_refs4.6d237a323ddbbb01cf78.png",
+    "static/media/PBprev.jpg": "/figportfolio2022/static/media/PBprev.a71769006478bc9dac25.jpg",
     "static/media/vectorPrev.png": "/figportfolio2022/static/media/vectorPrev.b851634a0d3f6aaa4fd1.png",
     "static/media/pokePartyDisplay.png": "/figportfolio2022/static/media/pokePartyDisplay.4fb164d58d84496c045d.png",
     "static/media/illust4.jpg": "/figportfolio2022/static/media/illust4.f10f125c5caa5824d1ca.jpg",
@@ -31,11 +37,11 @@
     "static/media/tractivePrev.png": "/figportfolio2022/static/media/tractivePrev.0d161bee32279a9fa5ba.png",
     "static/media/jqIcon.png": "/figportfolio2022/static/media/jqIcon.6ae16b1996cb99830516.png",
     "index.html": "/figportfolio2022/index.html",
-    "main.940388a2.css.map": "/figportfolio2022/static/css/main.940388a2.css.map",
-    "main.0a0b1da0.js.map": "/figportfolio2022/static/js/main.0a0b1da0.js.map"
+    "main.8c441b6b.css.map": "/figportfolio2022/static/css/main.8c441b6b.css.map",
+    "main.c6e6b7fd.js.map": "/figportfolio2022/static/js/main.c6e6b7fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.940388a2.css",
-    "static/js/main.0a0b1da0.js"
+    "static/css/main.8c441b6b.css",
+    "static/js/main.c6e6b7fd.js"
   ]
 }
