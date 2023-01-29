@@ -91,7 +91,7 @@ export default function GalleryItemShowcase({
                 {selectedData.url === false ? null : (
                   <a href={selectedData.url} target='_blank' rel='noreferrer'>
                     <div className='viewLink'>
-                      View {selectedData.id === 2 ? "PDFs" : "Website"}
+                      View {selectedData.type === "pdf" ? "PDFs" : "Website"}
                       <span class='material-symbols-outlined'>
                         arrow_outward
                       </span>

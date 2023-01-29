@@ -25,6 +25,9 @@ import pb2 from "./galleryData/PB_refs2.png";
 import pb3 from "./galleryData/PB_refs3.png";
 import pb4 from "./galleryData/PB_refs4.png";
 import pbPdf from "./galleryData/PB_pdf.pdf";
+import nikonPrev from "./galleryData/nikonPrev.jpg";
+import nikon1 from "./galleryData/nikon1.png";
+import nikonDisplay from "./galleryData/nikon_display.jpg";
 export const GalleryData = [
   {
     id: 1,
@@ -35,20 +38,35 @@ export const GalleryData = [
     display: [pokePartyDisplay, pokeParty2, pokeParty3],
     url: "https://hollyefig.github.io/pokeParty/",
     github: "https://github.com/hollyefig/pokeParty",
+    type: "website",
   },
 
   {
     id: 2,
     name: "Pep Boys Branding",
     preview: pbPrev,
-    description: `Email and Web designs done for Pep Boys. Each piece was designed using Adobe Creative Suite, then coded together with HTML, CSS and responsive CSS media queries. Emails were also tested using Litmus Testing to ensure they displayed correctly across all platforms.`,
+    description:
+      "Email and Web designs done for Pep Boys. Each piece was designed using Adobe Creative Suite, then coded together with HTML, CSS and responsive CSS media queries. Emails were also tested using Litmus Testing to ensure they displayed correctly across all platforms.",
     display: [pb1, pb2, pb3, pb4],
     url: pbPdf,
     github: false,
+    type: "pdf",
   },
 
   {
     id: 3,
+    name: "Nikon Infographic",
+    preview: nikonPrev,
+    description:
+      "At Sposto Interactive a client asked for us to update their current infographic to look more professional and consistant. Several versions of this infographic were produced until it was narrowed down to this one. Keeping a theme throughout with black banners, similar font weights and sizes was the objective. Illustrations were kept to a minimum, appearing flat with 1 color to tie into the simplicity of the overall design.",
+    display: [nikon1],
+    url: nikonDisplay,
+    github: false,
+    type: "pdf",
+  },
+
+  {
+    id: 4,
     name: "Illustration",
     preview: illustrationPrev,
     description:
@@ -56,10 +74,11 @@ export const GalleryData = [
     display: [illust1, illust2, illust3, illust4],
     url: false,
     github: false,
+    type: "gallery",
   },
 
   {
-    id: 4,
+    id: 5,
     name: "Tractive App",
     preview: [tractivePrev],
     description:
@@ -67,10 +86,11 @@ export const GalleryData = [
     display: [tractive1, tractive2, tractive3, tractive4],
     url: false,
     github: false,
+    type: "gallery",
   },
 
   {
-    id: 5,
+    id: 6,
     name: "Vector Art",
     preview: vectorPrev,
     description:
@@ -78,10 +98,11 @@ export const GalleryData = [
     display: [vector1, vector2, vector3, vector4],
     url: false,
     github: false,
+    type: "gallery",
   },
 
   {
-    id: 6,
+    id: 7,
     name: "Art Guide",
     preview: wiiuaaPrev,
     description:
@@ -89,5 +110,6 @@ export const GalleryData = [
     display: [wiiuaaDisplay],
     url: "https://hollyfig.com/_old/artacademytutorial/index.html",
     github: false,
+    type: "website",
   },
 ];
