@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/figportfolio2022/static/css/main.7c7f41c0.css",
-    "main.js": "/figportfolio2022/static/js/main.3a8166cd.js",
+    "main.css": "/figportfolio2022/static/css/main.f144e18c.css",
+    "main.js": "/figportfolio2022/static/js/main.b346e102.js",
     "static/media/PB_pdf.pdf": "/figportfolio2022/static/media/PB_pdf.385ae992bd4f107b239b.pdf",
     "static/media/resume.pdf": "/figportfolio2022/static/media/resume.68ef4a815a164d7b8888.pdf",
     "static/media/contactbg.png": "/figportfolio2022/static/media/contactbg.7b88cbd6afcb4ee805a0.png",
@@ -12,6 +12,7 @@
     "static/media/illustPrev.png": "/figportfolio2022/static/media/illustPrev.cf99bb0bbf87c0a620c7.png",
     "static/media/wiiuaaPrev.png": "/figportfolio2022/static/media/wiiuaaPrev.1f055294ff31e07c7b83.png",
     "static/media/header.jpg": "/figportfolio2022/static/media/header.3819b5fb7b0921650431.jpg",
+    "static/media/nikonPrev.jpg": "/figportfolio2022/static/media/nikonPrev.794b5eb76dc6e7678f86.jpg",
     "static/media/vector4.jpeg": "/figportfolio2022/static/media/vector4.ff929b8543204f07ddbf.jpeg",
     "static/media/pokePartyPrev.png": "/figportfolio2022/static/media/pokePartyPrev.e0f47019b5fb21bf47c3.png",
     "static/media/wiiuaaDisplay.png": "/figportfolio2022/static/media/wiiuaaDisplay.cbeea5086f6c8d57a8ea.png",
@@ -22,12 +23,14 @@
     "static/media/vector1.png": "/figportfolio2022/static/media/vector1.e80a81c58a5eb711125f.png",
     "static/media/pokeParty2.png": "/figportfolio2022/static/media/pokeParty2.9ae24f9fe306986ba997.png",
     "static/media/vector3.png": "/figportfolio2022/static/media/vector3.6f613148a157b321268b.png",
+    "static/media/nikon_display.jpg": "/figportfolio2022/static/media/nikon_display.736fbbf696094927c311.jpg",
     "static/media/vector2.png": "/figportfolio2022/static/media/vector2.e91fccd7dbe16f64f258.png",
     "static/media/sparkles.PNG": "/figportfolio2022/static/media/sparkles.992e0425fd2da0ec0907.PNG",
     "static/media/PB_refs4.png": "/figportfolio2022/static/media/PB_refs4.6d237a323ddbbb01cf78.png",
     "static/media/PBprev.jpg": "/figportfolio2022/static/media/PBprev.a71769006478bc9dac25.jpg",
     "static/media/vectorPrev.png": "/figportfolio2022/static/media/vectorPrev.b851634a0d3f6aaa4fd1.png",
     "static/media/pokePartyDisplay.png": "/figportfolio2022/static/media/pokePartyDisplay.4fb164d58d84496c045d.png",
+    "static/media/nikon1.png": "/figportfolio2022/static/media/nikon1.bacdb32e02f2baa5cb8e.png",
     "static/media/illust4.jpg": "/figportfolio2022/static/media/illust4.f10f125c5caa5824d1ca.jpg",
     "static/media/signature.png": "/figportfolio2022/static/media/signature.ddf76f306be372f749f8.png",
     "static/media/tractive1Phone.png": "/figportfolio2022/static/media/tractive1Phone.1087717637d72564b144.png",
@@ -37,11 +40,11 @@
     "static/media/tractivePrev.png": "/figportfolio2022/static/media/tractivePrev.0d161bee32279a9fa5ba.png",
     "static/media/jqIcon.png": "/figportfolio2022/static/media/jqIcon.6ae16b1996cb99830516.png",
     "index.html": "/figportfolio2022/index.html",
-    "main.7c7f41c0.css.map": "/figportfolio2022/static/css/main.7c7f41c0.css.map",
-    "main.3a8166cd.js.map": "/figportfolio2022/static/js/main.3a8166cd.js.map"
+    "main.f144e18c.css.map": "/figportfolio2022/static/css/main.f144e18c.css.map",
+    "main.b346e102.js.map": "/figportfolio2022/static/js/main.b346e102.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c7f41c0.css",
-    "static/js/main.3a8166cd.js"
+    "static/css/main.f144e18c.css",
+    "static/js/main.b346e102.js"
   ]
 }
