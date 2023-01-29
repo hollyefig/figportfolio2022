@@ -28,6 +28,9 @@ import pbPdf from "./galleryData/PB_pdf.pdf";
 import nikonPrev from "./galleryData/nikonPrev.jpg";
 import nikon1 from "./galleryData/nikon1.png";
 import nikonDisplay from "./galleryData/nikon_display.jpg";
+import twistPrev from "./galleryData/twistPrev.jpg";
+import twist1 from "./galleryData/twist1.png";
+import twist2 from "./galleryData/twist2.png";
 export const GalleryData = [
   {
     id: 1,
@@ -67,6 +70,18 @@ export const GalleryData = [
 
   {
     id: 4,
+    name: "Twist Branding",
+    preview: twistPrev,
+    description:
+      "An energy drink modeled after the punk and skateboarder culture. Twisted arrows in the typography illustrate motion and action like an X-games boarder. Bright neon colors were intended to favor the teen audience, being full of vigor and standing out from the crowd.",
+    display: [twist1, twist2],
+    url: false,
+    github: false,
+    type: "gallery",
+  },
+
+  {
+    id: 5,
     name: "Illustration",
     preview: illustrationPrev,
     description:
@@ -78,7 +93,7 @@ export const GalleryData = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: "Tractive App",
     preview: [tractivePrev],
     description:
@@ -90,7 +105,7 @@ export const GalleryData = [
   },
 
   {
-    id: 6,
+    id: 7,
     name: "Vector Art",
     preview: vectorPrev,
     description:
@@ -102,7 +117,7 @@ export const GalleryData = [
   },
 
   {
-    id: 7,
+    id: 8,
     name: "Art Guide",
     preview: wiiuaaPrev,
     description:
