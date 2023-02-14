@@ -27,6 +27,8 @@ export default function GalleryItemShowcase({
       slideLeft();
     } else if (e.key === "ArrowRight") {
       slideRight();
+    } else if (e.key === "Escape") {
+      galleryReturn();
     }
   };
 
