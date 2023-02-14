@@ -4,9 +4,10 @@ export default function GalleryItemShowcase({
   selectedData,
   galleryDisplay,
   galleryReturn,
+  galleryNum,
+  setGalleryNum,
 }) {
   const galleryLength = selectedData.display.length;
-  const [galleryNum, setGalleryNum] = useState(0);
 
   const slideLeft = () => {
     galleryNum === 0

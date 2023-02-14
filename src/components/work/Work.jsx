@@ -9,6 +9,7 @@ export default function Work({ workRef, workVisible }) {
   ///////////////////////////
 
   const [galleryDisplay, setGalleryDisplay] = useState(true);
+  const [galleryNum, setGalleryNum] = useState(0);
 
   const [selectedData, setSelectedData] = useState();
 
@@ -19,6 +20,9 @@ export default function Work({ workRef, workVisible }) {
 
   const galleryReturn = () => {
     setGalleryDisplay(true);
+    setTimeout(() => {
+      setGalleryNum(0);
+    }, 500);
   };
 
   return (
@@ -53,6 +57,8 @@ export default function Work({ workRef, workVisible }) {
               selectedData={selectedData}
               galleryReturn={galleryReturn}
               galleryDisplay={galleryDisplay}
+              galleryNum={galleryNum}
+              setGalleryNum={setGalleryNum}
             />
           </>
         )}
