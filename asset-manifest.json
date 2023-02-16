@@ -1,16 +1,21 @@
 {
   "files": {
     "main.css": "/figportfolio2022/static/css/main.847b4ab3.css",
-    "main.js": "/figportfolio2022/static/js/main.1259b1f7.js",
+    "main.js": "/figportfolio2022/static/js/main.bfa0d75f.js",
+    "static/media/techWise.gif": "/figportfolio2022/static/media/techWise.ea5dd84afc0f422efd48.gif",
     "static/media/PB_pdf.pdf": "/figportfolio2022/static/media/PB_pdf.385ae992bd4f107b239b.pdf",
     "static/media/resume.pdf": "/figportfolio2022/static/media/resume.68ef4a815a164d7b8888.pdf",
     "static/media/contactbg.png": "/figportfolio2022/static/media/contactbg.7b88cbd6afcb4ee805a0.png",
+    "static/media/techWise_pdf.pdf": "/figportfolio2022/static/media/techWise_pdf.597c3551fe699e7d6c88.pdf",
     "static/media/illust1.jpg": "/figportfolio2022/static/media/illust1.413269384319758e83e2.jpg",
     "static/media/illust3.jpg": "/figportfolio2022/static/media/illust3.13b0a03147d8108db059.jpg",
     "static/media/illust2.jpg": "/figportfolio2022/static/media/illust2.6a8c42c94516c264a51c.jpg",
     "static/media/portrait.PNG": "/figportfolio2022/static/media/portrait.709cbdf35c9b138d2e9f.PNG",
+    "static/media/techWise1.png": "/figportfolio2022/static/media/techWise1.cfc011d8d65e39645ca2.png",
     "static/media/illustPrev.png": "/figportfolio2022/static/media/illustPrev.cf99bb0bbf87c0a620c7.png",
     "static/media/wiiuaaPrev.png": "/figportfolio2022/static/media/wiiuaaPrev.1f055294ff31e07c7b83.png",
+    "static/media/techWise3.png": "/figportfolio2022/static/media/techWise3.038107e85ddbf055c0bc.png",
+    "static/media/techWise2.png": "/figportfolio2022/static/media/techWise2.260b6cf53654ac3cb0bc.png",
     "static/media/header.jpg": "/figportfolio2022/static/media/header.3819b5fb7b0921650431.jpg",
     "static/media/nikonPrev.jpg": "/figportfolio2022/static/media/nikonPrev.794b5eb76dc6e7678f86.jpg",
     "static/media/vector4.jpeg": "/figportfolio2022/static/media/vector4.ff929b8543204f07ddbf.jpeg",
@@ -32,6 +37,7 @@
     "static/media/twistPrev.jpg": "/figportfolio2022/static/media/twistPrev.a6a0860461838e4b0a9b.jpg",
     "static/media/vectorPrev.png": "/figportfolio2022/static/media/vectorPrev.b851634a0d3f6aaa4fd1.png",
     "static/media/pokePartyDisplay.png": "/figportfolio2022/static/media/pokePartyDisplay.4fb164d58d84496c045d.png",
+    "static/media/techWisePrev.jpg": "/figportfolio2022/static/media/techWisePrev.702e6480125cf3f8b17b.jpg",
     "static/media/nikon1.png": "/figportfolio2022/static/media/nikon1.bacdb32e02f2baa5cb8e.png",
     "static/media/twist1.png": "/figportfolio2022/static/media/twist1.0e2335cafb274da6a6f0.png",
     "static/media/illust4.jpg": "/figportfolio2022/static/media/illust4.f10f125c5caa5824d1ca.jpg",
@@ -46,10 +52,10 @@
     "static/media/jqIcon.png": "/figportfolio2022/static/media/jqIcon.6ae16b1996cb99830516.png",
     "index.html": "/figportfolio2022/index.html",
     "main.847b4ab3.css.map": "/figportfolio2022/static/css/main.847b4ab3.css.map",
-    "main.1259b1f7.js.map": "/figportfolio2022/static/js/main.1259b1f7.js.map"
+    "main.bfa0d75f.js.map": "/figportfolio2022/static/js/main.bfa0d75f.js.map"
   },
   "entrypoints": [
     "static/css/main.847b4ab3.css",
-    "static/js/main.1259b1f7.js"
+    "static/js/main.bfa0d75f.js"
   ]
 }
