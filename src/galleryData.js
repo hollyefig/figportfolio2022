@@ -31,9 +31,10 @@ import nikonDisplay from "./galleryData/nikon_display.jpg";
 import twistPrev from "./galleryData/twistPrev.jpg";
 import twist1 from "./galleryData/twist1.png";
 import twist2 from "./galleryData/twist2.png";
+import toDoPrev from "./galleryData/toDoPrev.png";
+import toDo1 from "./galleryData/toDo1.png";
 export const GalleryData = [
   {
-    id: 1,
     name: "PokeParty",
     preview: PokePartyPrev,
     description:
@@ -45,7 +46,17 @@ export const GalleryData = [
   },
 
   {
-    id: 2,
+    name: "To Do List",
+    preview: toDoPrev,
+    description:
+      "From The Odin Project's Object Oriented Principles course, this website was a practice in creating objects from data input and being able to post, edit, organize, and delete them. In addition to organizing the data, the project also utilizes css animations based on conditions that execute through javascript.",
+    display: [toDo1],
+    url: "https://hollyefig.github.io/todolist/",
+    github: "https://github.com/hollyefig/todolist",
+    type: "website",
+  },
+
+  {
     name: "Pep Boys Branding",
     preview: pbPrev,
     description:
@@ -57,7 +68,6 @@ export const GalleryData = [
   },
 
   {
-    id: 3,
     name: "Nikon Infographic",
     preview: nikonPrev,
     description:
@@ -69,7 +79,6 @@ export const GalleryData = [
   },
 
   {
-    id: 4,
     name: "Twist Branding",
     preview: twistPrev,
     description:
@@ -81,7 +90,6 @@ export const GalleryData = [
   },
 
   {
-    id: 5,
     name: "Illustration",
     preview: illustrationPrev,
     description:
@@ -93,7 +101,6 @@ export const GalleryData = [
   },
 
   {
-    id: 6,
     name: "Tractive App",
     preview: [tractivePrev],
     description:
@@ -105,7 +112,6 @@ export const GalleryData = [
   },
 
   {
-    id: 7,
     name: "Vector Art",
     preview: vectorPrev,
     description:
@@ -117,7 +123,6 @@ export const GalleryData = [
   },
 
   {
-    id: 8,
     name: "Art Guide",
     preview: wiiuaaPrev,
     description:

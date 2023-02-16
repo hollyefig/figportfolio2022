@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 
 export default function GalleryItemShowcase({
   selectedData,
@@ -63,7 +63,9 @@ export default function GalleryItemShowcase({
                     <img
                       src={url}
                       className={
-                        selectedData.id === 1 ? "sliderImg2" : "sliderImg"
+                        selectedData.name === "PokeParty"
+                          ? "sliderImg2"
+                          : "sliderImg"
                       }
                     />
                   )}

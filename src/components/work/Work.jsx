@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useRef } from "react";
 import "./work.css";
 import GalleryBox from "./GalleryBox";
 import { GalleryData } from "../../galleryData.js";
@@ -10,6 +10,7 @@ export default function Work({ workRef, workVisible }) {
 
   const [galleryDisplay, setGalleryDisplay] = useState(true);
   const [galleryNum, setGalleryNum] = useState(0);
+  const workGalleryBoxes = useRef(null);
 
   const [selectedData, setSelectedData] = useState();
 
@@ -24,6 +25,10 @@ export default function Work({ workRef, workVisible }) {
       setGalleryNum(0);
     }, 500);
   };
+
+  setTimeout(() => {
+    workGalleryBoxes.current.style.gridTemplateColumns = `repeat(${GalleryData.length}, 300px)`;
+  }, 500);
 
   return (
     <div className='workWrapper scrollSnap'>
@@ -41,6 +46,7 @@ export default function Work({ workRef, workVisible }) {
             <h1>Work</h1>
           </div>
           <div
+            ref={workGalleryBoxes}
             className={`workGalleryBoxes ${
               workVisible ? "galleryFadeIn" : null
             }`}
