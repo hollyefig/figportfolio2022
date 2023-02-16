@@ -33,6 +33,12 @@ import twist1 from "./galleryData/twist1.png";
 import twist2 from "./galleryData/twist2.png";
 import toDoPrev from "./galleryData/toDoPrev.png";
 import toDo1 from "./galleryData/toDo1.png";
+import techWisePrev from "./galleryData/techWisePrev.jpg";
+import techWise1 from "./galleryData/techWise1.png";
+import techWise2 from "./galleryData/techWise2.png";
+import techWise3 from "./galleryData/techWise3.png";
+import techWiseGif from "./galleryData/techWise.gif";
+import techWisePdf from "./galleryData/techWise_pdf.pdf";
 export const GalleryData = [
   {
     name: "PokeParty",
@@ -43,6 +49,17 @@ export const GalleryData = [
     url: "https://hollyefig.github.io/pokeParty/",
     github: "https://github.com/hollyefig/pokeParty",
     type: "website",
+  },
+
+  {
+    name: "TechWise Branding",
+    preview: techWisePrev,
+    description:
+      "Design work for TechWise Group branding. I was requested to create design assets such as pattern backgrounds, iconography, fonts, and color matching for TechWise Group's website. The site was maintained using WordPress templates and my own code to further customize the template.",
+    display: [techWiseGif, techWise1, techWise2, techWise3],
+    url: techWisePdf,
+    github: false,
+    type: "pdf",
   },
 
   {
